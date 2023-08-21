@@ -1,0 +1,266 @@
+.body{
+    margin:0px;
+    padding:0px;
+    margin-top:0px;
+    height:470px;
+    width:1148px;
+    background-image: url("library_img1.png");
+    background-size: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.big_box1{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.navbar-1{
+    height: 70px;
+    width:100%;
+    background-color: rgb(192, 140, 36);
+    color:white;
+    margin-top: 0px;
+    align-items:center;
+    justify-content: center;
+    display:flex;
+    text-align: center;
+   
+}
+.nav_logo{
+    height:70px;
+    width:70px;
+    background-image: url("new_epsilon_logo.png");
+    background-size: contain;
+    position: relative;
+    right:190px;
+}
+.learn-from-best-tutors{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 50px;
+    font-family: arial;
+    font-weight: 900;
+    height: 75px;
+    margin-top: 0px;
+    /* -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px; */
+}
+.navbar-2{
+    height: 30px;
+    width:100%;
+    background-color: rgba(230, 157, 9,0.5);
+    color:black;
+    display: flex;
+    float: right;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    align-items:center;
+}
+.nav_text{
+    height:80px;
+}
+.welcome{
+    height:30px;
+    width:950px;
+}
+.welcome-to-epsilon{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 50px ;
+    animation-name: movement;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: normal;
+}
+@keyframes movement {
+    0%{
+        /* top:0px;
+        right:0px; */
+        margin-left: 0px;
+    }
+    50%{
+        /* top:0px;
+        right:300px; */
+        margin-left:400px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+}
+.user-logo{
+    margin-left: 50px ;
+    margin-right: 100px ;
+}
+.signup{
+    height:100px;
+    width:30px;
+    margin-right:80px;
+    margin-left: 2px;
+    font-family: arial;
+    margin-top: 27px;
+}
+.feedback{
+    height:100px;
+    width:30px;
+    margin-right:80px;
+    font-family: arial;
+    margin-top: 82px;
+}
+.contact-us{
+    margin-right:50px;
+    font-family: arial;
+}
+.three-dots{
+    margin-right: 50px;
+}
+
+.select_your_branch{
+    height:180px;
+    width: 800px;
+    border-radius: 50%;
+    border: 5px solid black;
+    background-color: rgba(230, 157, 9);
+    text-align: center;
+    line-height: 10px;
+    position: relative;
+    top:30px;
+    margin-left:50px;
+    box-shadow: black 15px 20px 20px;
+}
+.letter{
+    position: relative;
+    top:13px;
+    font-weight: 500;
+    font-family: arial;
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.box1{
+    height:180px;
+    width: 180px;
+    background-color: rgba(230, 157, 9);
+    color:white;
+    border:2px solid black;
+    text-align:center;
+    font-size: 0.9rem;
+    font-family: arial;
+    box-shadow: black 15px 20px 20px;
+    border-radius: 5px;
+}
+
+.box1:hover{
+    height:185px;
+    width:185px;
+}
+.no1{
+    position:relative;
+    top:15px;
+    height:35px;
+    width:35px;
+    color:white;
+    border-radius: 50%;
+    border:2px solid black;
+    margin-left:75px;
+    font-size:1rem;
+}
+.digit{
+    margin-top:10px;
+}
+.box2{
+    height:180px;
+    width: 180px;
+    background-color: rgb(112, 81, 21);
+    color:white;
+    border:2px solid black;
+    text-align:center;
+    font-size: 0.85rem;
+    font-family: arial;
+    margin-left:30px ;
+    box-shadow: black 15px 20px 20px;
+    border-radius: 5px;
+}
+.box2:hover{
+    height:185px;
+    width:185px;
+}
+.box3{
+    height:180px;
+    width: 180px;
+    background-color: rgb(112, 81, 21);
+    color:white;
+    border:2px solid black;
+    text-align:center;
+    font-size: 0.9rem;
+    font-family: arial;
+    box-shadow: black 15px 20px 20px;
+    border-radius: 5px;
+}
+.box3:hover{
+    height:185px;
+    width:185px;
+}
+.box4{
+    height:180px;
+    width: 180px;
+    background-color: rgba(230, 157, 9);
+    color:white;
+    border:2px solid black;
+    text-align:center;
+    font-size: 0.85rem;
+    font-family: arial;
+    margin-left:30px;
+    box-shadow: black 15px 20px 20px;
+    border-radius: 5px;
+}
+.box4:hover{
+    height:185px;
+    width:185px;
+}
+.content1{
+    height:200px;
+    width:100vw;
+    display:flex;
+    position: relative;
+    top:40px;
+    left:150px;
+}
+.content2{
+    height:200px;
+    width:100vw;
+    display:flex;
+    position: relative;
+    top:65px;
+    left:305px;
+}
+.slides{
+    background-image: url("slide01.png");
+    background-size: cover;
+    border:5px solid black;
+    border-radius: 5px;
+    position: relative;
+    top:65px;
+    left:40px;
+    height: 180px;
+    width: 500px;
+    animation-name: slides;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    direction:normal;
+}
+@keyframes slides{
+    0%{
+        background-image: url("slide01.png");
+        }
+    50%{
+        background-image: url("slide2.png");
+    }
+    100%{
+        background-image: url("slide03.png");
+    }
+}
